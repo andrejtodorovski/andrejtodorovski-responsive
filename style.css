@@ -374,7 +374,8 @@ h1
     }
 
     .section {
-        width: min-content;
+        width: 100%;
+        text-align:center;
         display: block;
     }
 
@@ -418,7 +419,7 @@ h1
     .kontakt-div-text img {
         width: 50px;
         max-width: 15%;
-        height: min-content;
+        height: 50px;
     }
     section {
         padding-top: 150px;
