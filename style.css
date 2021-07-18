@@ -1,0 +1,425 @@
+html {
+    scroll-padding-top: 70px; /* height of sticky header */
+}
+body
+{
+    margin: 0;
+}
+header
+{
+    background-color: #333;
+    position: fixed;
+    padding:0.25em;
+    width: 100%;
+    max-width: 100%;
+}
+.container-nav
+{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+
+}
+.header-left
+{
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+.header-left h1
+{
+    margin: 0;
+    font-size: 1.5em;
+}
+.header-left h1 a
+{
+    text-decoration: none;
+    color: white;
+}
+nav ul
+{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+nav li
+{
+    margin-left: 2em;
+}
+nav a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+nav a:hover
+{
+    color:#00C8C8;
+}
+.header-left a:hover
+{
+    color: #00C8C8;
+}
+
+.container-main
+{
+    display: flex;
+    margin: 0 auto 30px auto;
+    padding-top: 30px;
+    max-width: 960px;
+    width: 90%;
+    justify-content: space-between;
+
+}
+section
+{
+    background-color: #212529;
+    color: white;
+    padding-top: 60px;
+}
+.div-main {
+    width: 30%;
+    align-self: center;
+}
+.container-main img
+{
+    width: 30%;
+    max-width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+.div-main-text
+{
+    line-height: 1.5em;
+}
+.div-main-info,.div-main-info li
+{
+    list-style-type: none;
+    margin-bottom: 1em;
+    padding: 0;
+}
+.socials
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+/**/
+.socials div
+{
+    padding:8px;
+    cursor: pointer;
+}
+.socials div a
+{
+    opacity: 0;
+}
+#facebook
+{
+    background: url("./images/facebook.png") no-repeat;
+    background-size: 30px;
+}
+#twitter
+{
+    background: url("./images/twitter.png") no-repeat;
+    background-size: 30px;
+}
+#youtube
+{
+    background: url("./images/youtube.png") no-repeat;
+    background-size: 30px;
+}
+#github
+{
+    background: url("./images/github.png") no-repeat;
+    background-size: 30px;
+}
+#linkedin
+{
+    background: url("./images/linkedin.png") no-repeat;
+    background-size: 30px;
+}
+#instagram
+{
+    background: url("./images/instagram.png") no-repeat;
+    background-size: 30px;
+}
+.button:hover
+{
+    transform: scale(1.25);
+}
+.button
+{
+    display: block;
+}
+.button a
+{
+    display: block;
+}
+/**/
+.container-education
+{
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+    justify-content: space-between;
+}
+.content
+{
+    width: 30%;
+    text-align: center;
+}
+.container-skills
+{
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+    flex-direction: column;
+}
+.skills-div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container-skills img
+{
+    max-width: 50%;
+}
+.skills-div-images
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.container-interests
+{
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+    flex-direction: column;
+}
+.interests-div img
+{
+    max-width: 22%;
+}
+.interests-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+.interests-div-reverse
+{
+    flex-direction: row-reverse;
+}
+.interests-main
+{
+    max-width: 72%;
+}
+.container-contact
+{
+    display: flex;
+    margin: 1em auto 0 auto;
+    padding-bottom: 3em;
+    max-width: 960px;
+    width: 90%;
+}
+.section
+{
+    max-width: 960px;
+    width: 90%;
+    margin: 0.5em auto;
+}
+.kontakt-div
+{
+    max-width: 50%;
+}
+.kontakt-div-main
+{
+    margin-bottom: 2em;
+}
+.kontakt-div-text
+{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1em;
+}
+.kontakt-div-text img
+{
+    max-width: 12%;
+}
+.kontakt-div-text p
+{
+    max-width: 80%;
+    margin-left: 8%;
+}
+iframe
+{
+    width: 95%;
+}
+label
+{
+    color: white;
+}
+input, textarea {
+    width: 100%;
+    padding: 1em;
+    border-radius: 5px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    resize: vertical;
+}
+textarea
+{
+    height: 200px;
+}
+textarea:focus, input:focus{
+    outline: none;
+    border: 2px solid #00C8C8;
+}
+textarea:hover, input:hover{
+    border: 2px solid #00C8C8;
+}
+#submit {
+    background-color: #00C8C8;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 4px;
+    margin: 1em auto;
+    width: 50%;
+    display: block;
+}
+#submit:hover
+{
+    cursor: pointer;
+    color: #00C8C8;
+    background-color: #333;
+}
+footer
+{
+    background-color: #333;
+    padding:0.25em;
+    color: white;
+}
+.footer-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+    text-align: center;
+}
+.footer-container p
+{
+    margin: 0.5em 0;
+}
+/*Typography*/
+h2
+{
+    color: #00C8C8;
+}
+a
+{
+    text-decoration: none;
+    color: #00C8C8;
+}
+h1
+{
+    font-size: 1.75em;
+    color: #ddd;
+}
+/**/
+@media all and (max-width:960px) {
+    html {
+        scroll-padding-top: 200px; /* height of sticky header */
+    }
+    .container-nav {
+        flex-direction: column;
+        align-items: center;
+        max-width: 470px;
+        padding-top:1em;
+        font-size: 0.75em;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        text-align: center;
+    }
+
+    nav li {
+        margin: 0.3em;
+    }
+
+    .container-main, .container-interests, .container-skills, .container-contact, .container-education {
+        flex-direction: column;
+        align-items: center;
+        max-width: 470px;
+        min-width: 300px;
+    }
+
+    .section {
+        width: min-content;
+        display: block;
+    }
+
+    .div-main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1em;
+    }
+
+    .container-main img {
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .content {
+        width: 80%;
+        text-align: center;
+    }
+
+    .interests-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .interests-div img {
+        max-width: 50%;
+    }
+
+    .skills-div-images {
+        flex-wrap: wrap;
+    }
+
+    .skills-div-text {
+        max-width: 40%;
+    }
+
+    .kontakt-div {
+        max-width: 80%;
+    }
+
+    .kontakt-div-text img {
+        width: 50px;
+        max-width: 15%;
+        height: min-content;
+    }
+    section {
+        padding-top: 150px;
+    }
+}
